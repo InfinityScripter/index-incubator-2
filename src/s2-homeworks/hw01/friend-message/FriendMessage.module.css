@@ -1,0 +1,42 @@
+.friendMessage {
+
+    margin: 10px 0;
+}
+
+.friendImageAndText {
+    display: flex;
+    align-items: flex-start;
+}
+
+.friendAvatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.friendText {
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f0f0;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+
+.friendName {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.friendMessageText {
+    white-space: pre-wrap;
+}
+
+.friendTime {
+    margin: 10px;
+    font-size: 12px;
+    color: #999;
+    align-self: flex-end;
+}
