@@ -1,20 +1,53 @@
-.input:focus {
-}
-
+/* Обычный инпут */
 .input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+    transition: border-color 0.3s, box-shadow 0.3s;
 }
 
+/* Инпут при фокусе */
+.input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+    outline: none;
+}
+
+/* Контейнер для инпута */
 .inputWrapper {
+    margin-bottom: 10px;
+    width: 100%;
 }
 
+/* Кастомный класс для инпута */
 .superInput {
+    padding: 10px;
+    border: 2px solid #4caf50;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+    transition: border-color 0.3s, box-shadow 0.3s;
 }
 
+/* Инпут с ошибкой */
 .errorInput {
+    border-color: #d32f2f;
 }
 
+/* Инпут с ошибкой при фокусе */
 .errorInput:focus {
+    border-color: #b71c1c;
+    box-shadow: 0 0 8px rgba(183, 28, 28, 0.2);
+    outline: none;
 }
 
+/* Сообщение об ошибке */
 .error {
+    color: #d32f2f;
+    font-size: 12px;
+    margin-top: 5px;
+    height: 1.2em; /* чтобы место под ошибку всегда занимало фиксированное пространство */
+    transition: color 0.3s;
 }

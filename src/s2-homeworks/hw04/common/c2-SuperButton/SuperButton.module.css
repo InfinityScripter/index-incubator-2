@@ -1,36 +1,63 @@
 .button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
-.disabled {
-}
-
-.secondary {
-}
-
+/* Класс для кнопки по умолчанию */
 .default {
+    background-color: #007bff;
+    color: white;
 }
 
+/* Класс для красной кнопки */
 .red {
+    background-color: #ff0000;
+    color: white;
 }
 
+/* Класс для кнопки вторичного действия */
+.secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+/* Класс для отключенной кнопки */
+.disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+/* Ховер эффекты */
 .default:hover {
+    background-color: #0056b3;
 }
 
 .red:hover {
+    background-color: #cc0000;
 }
 
 .secondary:hover {
+    background-color: #5a6268;
 }
 
-
+/* Активные состояния */
 .default:active {
-}
-
-.secondary:active {
+    background-color: #004085;
 }
 
 .red:active {
+    background-color: #990000;
 }
 
+.secondary:active {
+    background-color: #343a40;
+}
+
+/* Отключенная кнопка - дополнительное состояние для :disabled */
 .button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
 }
