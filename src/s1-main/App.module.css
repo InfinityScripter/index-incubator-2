@@ -2,10 +2,17 @@
     --header_height: 60px;
 }
 
-.hw {
 
+.hw {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #f9f9f9;
 }
 
 .hwTitle {
-
+    font-size: 20px;
+    color: #3f51b5;
+    margin-bottom: 10px;
 }
